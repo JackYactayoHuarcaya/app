@@ -1,0 +1,14 @@
+.react-logo-efect {
+
+  animation: animeEfect 7s infinite linear;
+
+  @media (min-width:780px) {
+    min-width: 15rem;
+  }
+
+  @keyframes animeEfect {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+}
